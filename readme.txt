@@ -1,6 +1,6 @@
 
-GUIDE TO BUILDING MARKOV CHAINS FOR TEXT GENERATION.
-----------------------------------------------------
+GUIDE TO BUILDING MARKOV CHAINS FOR CHRISTMAS MOVIE PLOT GENERATION.
+--------------------------------------------------------------------
 
 This repository contains Python code for constructing Markov chains using some given text.
 
