@@ -5,8 +5,11 @@ GUIDE TO BUILDING MARKOV CHAINS FOR TEXT GENERATION.
 This repository contains Python code for constructing Markov chains using some given text.
 
 1) Markov-Chain.py - building a Markov chain that can be applied to some input text to generate new, similar-sounding text. 
-2) Hallmarkov.py - a Markov chain adapted to generate Hallmark movie plots. Instead of choosing a random word to start the text generation from, we always start from 'a woman', to give more sensible plots.
-3) Hallmark.txt - file containing real Hallmark movie plots that functions as the 'corpus' or input text.
+2) Hallmarkov.py - a Markov chain adapted to generate Christmas movie plots. Instead of choosing a random word to start the text generation from, we always start from 'a woman', to give more sensible plots.
+3) plots.txt - file containing real Christmas movie plots that functions as the 'corpus' or input text.
+4) app.py - python code using Flask to create a web app.
+6) process_files.py - creating and saving transition matrix to save time every time a new plot is generated using same corpus.
+7) transition_matrix.npy - transition matrix created in process_files.py stored as a numpy 2D matrix.
 
 A Markov chain allows us to transition between states. Each transition occurs with a certain probability. The next state only depends on the current state - this is the Markov property - it has no memory of the previous states.
 
