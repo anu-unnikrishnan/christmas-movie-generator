@@ -23,6 +23,6 @@ Our next step is to choose a word at random from the distinct words. We then wan
 
 We then start from this new word, and pick the next word from its probability distribution. We keep going like this until we have generated the required number of words. 
 
-Similarly, when k = 2, we consider blocks of two words and see which words come after each block. This allows us to create more sensible-sounding/less random text. 
+Similarly, when k = 2, we consider blocks of two words and see which words come after each block. This allows us to create more sensible-sounding/less random text.
 
 Note that k can be increased to whatever we want, but as k increases the text will start resembling the corpus more and more.
