@@ -1,5 +1,5 @@
 
-GUIDE TO BUILDING MARKOV CHAINS FOR CHRISTMAS MOVIE PLOT GENERATION.
+Guide to building Markov chains to create Christmas movie plots.
 --------------------------------------------------------------------
 
 This repository contains Python code for constructing Markov chains using some given text.
